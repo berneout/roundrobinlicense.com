@@ -8,6 +8,7 @@ body {
   line-height: 1.6;
   margin: 0 auto;
   max-width: 30rem;
+  padding: 1rem;
   text-rendering: optimizeLegibility;
 }
 

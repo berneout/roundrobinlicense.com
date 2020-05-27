@@ -1,0 +1,3 @@
+#!/bin/bash
+site=roundrobinlicense.com
+rsync -a --delete $(git ls-files -x deploy -x README.md) "$site:/var/www/$site/"

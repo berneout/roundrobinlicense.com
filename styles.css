@@ -55,3 +55,8 @@ a:hover, a:focus, a:active {
 a:visited {
   color: #884488;
 }
+
+.conspicuous {
+  font-style: italic;
+  font-weight: bold;
+}

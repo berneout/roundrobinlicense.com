@@ -63,6 +63,8 @@ a:visited {
 
 header[role=banner] img {
   float: right;
-  margin: 0 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
   width: 50%;
 }

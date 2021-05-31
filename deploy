@@ -1,3 +1,5 @@
 #!/bin/bash
+set -e
+make
 site=roundrobinlicense.com
 rsync -a --delete $(git ls-files) "$site:/var/www/$site/"

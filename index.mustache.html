@@ -1,26 +1,17 @@
 <!doctype html>
 <html lang=en-US>
   <head>
-    <meta charset=UTF-8>
-    <meta name=viewport content="width=device-width, initial-scale=1">
+    {{>meta}}
     <title>Round Robin Software License</title>
-    <link href=styles.css rel=stylesheet>
   </head>
   <body>
-    <header role=banner>
-      <a href=https://commons.wikimedia.org/wiki/File:The_Robin_-_Lords_entire_new_System_of_ornithology_%281791%29,_plate_XV_-_BL.jpg><img src=lords-system-small.jpg alt=robin></a>
-      <h1>Round Robin</h1>
-      <p>a modern open source license that’s share-alike for improvements and permissive for apps</p>
-    </header>
+    {{>header}}
     <main role=main>
-      <h2>Version 1.0.0</h2>
-      <p><a download=LICENSE.md href=1.0.0.md>Download <code>LICENSE.md</code>.</a></p>
-      <p><a href=1.0.0>Read the license online.</a></p>
-      <p><a download="Round Robin License 1.0.0.pdf" href=1.0.0.pdf>Download PDF to print.</a></p>
+      <h2>Version {{latest}}</h2>
+      <p><a download=LICENSE.md href={{latest}}.md>Download <code>LICENSE.md</code>.</a></p>
+      <p><a href={{latest}}>Read the license online.</a></p>
+      <p><a download="Round Robin License {{latest}}.pdf" href={{latest}}.pdf>Download PDF to print.</a></p>
     </main>
-    <footer role=contentinfo>
-      <p>Source: <a href=https://github.com/berneout/roundrobinlicense.com>Website</a>, <a href=https://github.com/berneout/round-robin-license>License Text</a></p>
-      <p>Art: Thomas Lord, 1791</p>
-    </footer>
+    {{>footer}}
   </body>
 </html>

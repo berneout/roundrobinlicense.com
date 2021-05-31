@@ -2,7 +2,7 @@ mustache=node_modules/.bin/mustache
 json=node_modules/.bin/json
 
 templates=$(wildcard *.mustache.html)
-partials=$(wildcard partials/*)
+partials=$(wildcard partials/*.mustache)
 tex=$(wildcard *.tex)
 
 targets=$(templates:.mustache.html=.html) $(tex:.tex=.pdf)
